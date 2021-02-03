@@ -65,7 +65,7 @@
   "homepage": "https://github.com/baukh789/GridManager-React#readme",
   "license": "MIT",
   "main": "/js/gm-react",
-  "name": "gridmanager-react",
+  "name": "gridmanager-react-ios",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nacxy/GridManager-React-ios.git"
@@ -76,5 +76,5 @@
     "start": "node server",
     "version": "npm run build && npm publish dist"
   },
-  "version": "1.7.19"
+  "version": "0.0.1"
 }
