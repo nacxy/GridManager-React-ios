@@ -68,7 +68,7 @@
   "name": "gridmanager-react",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/15201508996/GridManager-React-ios.git"
+    "url": "git+https://github.com/nacxy/GridManager-React-ios.git"
   },
   "scripts": {
     "build": "webpack --config webpack-config.js",
