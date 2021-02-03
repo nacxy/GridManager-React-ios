@@ -1,0 +1,80 @@
+{
+  "_from": "gridmanager-react@^1.7.18",
+  "_id": "gridmanager-react@1.7.19",
+  "_inBundle": false,
+  "_integrity": "sha1-pGpmYeEA3ma9Cj/Ar3MWE/m6SZ4=",
+  "_location": "/gridmanager-react",
+  "_phantomChildren": {
+    "js-tokens": "3.0.2",
+    "loose-envify": "1.3.1",
+    "object-assign": "4.1.1",
+    "scheduler": "0.19.1"
+  },
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "gridmanager-react@^1.7.18",
+    "name": "gridmanager-react",
+    "escapedName": "gridmanager-react",
+    "rawSpec": "^1.7.18",
+    "saveSpec": null,
+    "fetchSpec": "^1.7.18"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/gridmanager-react/download/gridmanager-react-1.7.19.tgz",
+  "_shasum": "a46a6661e100de66bd0a3fc0af731613f9ba499e",
+  "_spec": "gridmanager-react@^1.7.18",
+  "_where": "/Users/caoyi/Documents/workspace/code/estee/pos-static",
+  "author": {
+    "name": "baukh"
+  },
+  "bugs": {
+    "url": "https://github.com/baukh789/GridManager-React/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "gridmanager": "^2.14.19",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "deprecated": false,
+  "description": "GridManager by React",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.1.6",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "1.0.1",
+    "copy-webpack-plugin": "^4.5.1",
+    "css-loader": "2.1.1",
+    "express": "^4.15.2",
+    "mini-css-extract-plugin": "^0.5.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "terser-webpack-plugin": "^3.0.8",
+    "webpack": "^4.31.0",
+    "webpack-bundle-analyzer": "^3.3.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-middleware": "^3.7.0"
+  },
+  "homepage": "https://github.com/baukh789/GridManager-React#readme",
+  "license": "MIT",
+  "main": "/js/gm-react",
+  "name": "gridmanager-react",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/15201508996/GridManager-React-ios.git"
+  },
+  "scripts": {
+    "build": "webpack --config webpack-config.js",
+    "postversion": "git push && git push --tags",
+    "start": "node server",
+    "version": "npm run build && npm publish dist"
+  },
+  "version": "1.7.19"
+}
